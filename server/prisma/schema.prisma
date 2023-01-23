@@ -16,6 +16,7 @@ model User {
   roles     Json
   updatedAt DateTime @updatedAt
   username  String   @unique
+  love      String
 }
 
 model Order {
